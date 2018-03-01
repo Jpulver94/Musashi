@@ -220,3 +220,29 @@ function init() {
 }
 
 // GONNA DO A CLOCK HERE //
+//days 0-6 0 is sunday
+//hours 0-23
+//minutes 0 - 59
+//seconds 0 - 59
+
+/*Mon 11:30 am - 2:30 pm
+5:00 pm - 9:00 pm 
+Tue 11:30 am - 2:30 pm
+5:00 pm - 9:00 pm 
+Wed 11:30 am - 2:30 pm
+5:00 pm - 9:00 pm
+Thu 11:30 am - 2:30 pm
+5:00 pm - 9:00 pm 
+Fri 11:30 am - 2:30 pm
+5:00 pm - 9:30 pm 
+Sat 5:00 pm - 9:30 pm 
+Sun Closed*/
+// if (getday == 0) closed 
+// else{
+// if (hour >= 11 && minutes >= 30) && (hour <= 14 && minutes <=30) then is open
+// if (hour >= 17) && (hour <= 21) then is open
+// }
+function isOpen() {
+
+}
+isOpen();
