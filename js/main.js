@@ -30,13 +30,13 @@
           } else openClose.innerHTML = "Closed until 5:00pm";
         }
       } else if ( (hour >= 17) && (hour <= 21) ){ // open between 5 and 9:30
-        if ( hour != 21 ) openClose.innerHTML = "Open Now!";
-        else if ( min < 30 ) openClose.innerHTML = "Open Now!";
-        else openClose.innerHTML = "Closed until 11:00am";
+          if ( hour != 21 ) openClose.innerHTML = "Open Now!";
+          else if ( min < 30 ) openClose.innerHTML = "Open Now!";
+          else openClose.innerHTML = "Closed until 11:00am";
         } 
    }// end friday 
 
-
+   // DO SATURDAY!!!
   //MON thru THURS
   else if ( 11 <= hour <= 14 ) ){ // if hours are between 11 and 2 inclusive
       if ( hour == 11 ){
