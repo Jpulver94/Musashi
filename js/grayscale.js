@@ -54,15 +54,15 @@ function init() {
   // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
   var mapOptions = {
     // How zoomed in you want the map to start at (always required)
-    zoom: 15,
+    zoom: 17,
 
     // The latitude and longitude to center the map (always required)
-    center: new google.maps.LatLng(32.870069, -117.233393), // New York
+    center: new google.maps.LatLng(32.870069, -117.233393), // Musashi's La Jolla
 
     // Disables the default Google Maps UI components
-    disableDefaultUI: true,
-    scrollwheel: false,
-    draggable: false,
+    disableDefaultUI: false,
+    scrollwheel: true,
+    draggable: true,
 
     // How you would like to style the map.
     // This is where you would paste any style found on Snazzy Maps.
