@@ -4,5 +4,8 @@
   background-color: rgb(105,105,105);
 }
 
+.location {
+	text-align: center;
+}
 
 /* All Mobile CSS goes under here */

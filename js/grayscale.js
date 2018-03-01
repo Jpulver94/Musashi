@@ -81,6 +81,7 @@ function init() {
         ]
     }
 ]
+    // Default style
     /*[{
       "featureType": "water",
       "elementType": "geometry",
@@ -203,11 +204,6 @@ function init() {
   
   var image = 'img/map-marker.svg';
   var myLatLng = new google.maps.LatLng(32.8700695, -117.23339320000002);
-/*  var beachMarker = new google.maps.Marker({
-    position: myLatLng,
-    map: map,
-    icon: image
-  });*/
 
   var arrowMarker = new google.maps.Marker({
     position: myLatLng,
@@ -222,3 +218,5 @@ function init() {
     }
   });
 }
+
+// GONNA DO A CLOCK HERE //
