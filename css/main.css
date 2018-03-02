@@ -1,7 +1,7 @@
 /* All Desktop CSS goes under here */
 
 .about-section {
-  background-color: rgb(105,105,105);
+  background-color: #1e1e1e;
 }
 
 .location {
@@ -14,17 +14,22 @@
 	margin-bottom: 0;
 }
 
+.contact-section {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
 
 .btn-default {
-  color: #a30b0b;
-  border: 1px solid #a30b0b;
+  color: FireBrick;
+  border: 1px solid FireBrick;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
   color: black;
-  border: 1px solid #a30b0b;
+  border: 1px solid FireBrick;
   outline: none;
-  background-color: #a30b0b;
+  background-color: FireBrick;
 }
+
 /* All Mobile CSS goes under here */
