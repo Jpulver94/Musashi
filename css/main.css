@@ -11,9 +11,7 @@
 }
 
 #openOrNot{
-	font-weight: 700;
-	text-align: center;
-	margin-bottom: 0;
+  padding-top: 5px;
 }
 
 .contact-section {
@@ -48,5 +46,9 @@
 
 .banner-social-buttons {
 	padding-top: 50px;
+}
+
+#navHeader {
+  float: left;
 }
 /* All Mobile CSS goes under here */
