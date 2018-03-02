@@ -32,4 +32,13 @@
   background-color: FireBrick;
 }
 
+
+.boxed {
+  border: 1px solid white;
+  display: inline-flex;
+}
+
+.unstyled {
+  list-style-type: none;
+}
 /* All Mobile CSS goes under here */
