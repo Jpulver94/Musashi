@@ -79,7 +79,7 @@
   else { 
       openClose.innerHTML = "Closed until 11:00am"; }
   //set color
-  openClose.style.color = "#a30b0b";
+  openClose.style.color = "FireBrick";
 }
 
 isOpen();
