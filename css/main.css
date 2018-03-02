@@ -2,6 +2,8 @@
 
 .about-section {
   background-color: #1e1e1e;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .location {
@@ -19,6 +21,12 @@
   padding-bottom: 20px;
 }
 
+.menu-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #333333;
+}
+
 .btn-default {
   color: FireBrick;
   border: 1px solid FireBrick;
@@ -33,7 +41,8 @@
 }
 
 .size {
-  width: 500px;
+  width: 600px;
+  padding-right: 50px;
 }
 
 /* All Mobile CSS goes under here */
