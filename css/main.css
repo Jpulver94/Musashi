@@ -38,6 +38,7 @@
   border: 1px solid FireBrick;
   outline: none;
   background-color: FireBrick;
+
 }
 
 .size {
@@ -45,4 +46,7 @@
   padding-right: 50px;
 }
 
+.banner-social-buttons {
+	padding-top: 50px;
+}
 /* All Mobile CSS goes under here */
