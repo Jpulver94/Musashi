@@ -50,15 +50,21 @@
   padding-right: 50px;
 }
 
+
+.tpercent{
+  width: 33%;
+}
+
 /* All Mobile CSS goes under here */
 
 .banner-social-buttons {
 	padding-top: 50px;
 }
 
-.hihihi{
-  background-color: red !important;
+.locationback{
+  background-color: #ced4da;
 }
+
 
 /* All Mobile CSS goes under here */
 @import url(https://fonts.googleapis.com/css?family=Roboto);
