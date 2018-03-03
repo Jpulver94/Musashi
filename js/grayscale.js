@@ -43,6 +43,7 @@
 
 // Google Maps Scripts
 var map = null;
+
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);
 google.maps.event.addDomListener(window, 'resize', function() {
@@ -50,6 +51,7 @@ google.maps.event.addDomListener(window, 'resize', function() {
 });
 
 function init() {
+
   // Basic options for a simple Google Map
   // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
   var mapOptions = {
@@ -59,10 +61,17 @@ function init() {
     // The latitude and longitude to center the map (always required)
     center: new google.maps.LatLng(32.8700695, -117.23339320000002), // Musashi's La Jolla
 
+
+
+
+    //I DISABLED THESE THINGS AND THE MAP BECAME DRAG-ZOOMABLE -JOHN
+
     // Disables the default Google Maps UI components
-    disableDefaultUI: false,
-    scrollwheel: true,
-    draggable: true,
+    //disableDefaultUI: false,
+    //scrollwheel: true,
+    //draggable: false,
+
+
 
     // How you would like to style the map.
     // This is where you would paste any style found on Snazzy Maps.
