@@ -71,8 +71,7 @@
 
 body{
   font-family: "Roboto", "Sans Serif";
-  font-size: 18pt;
-  color: #fff;
+  font-size: 16pt;
 }
 
 .wrapper{
@@ -101,12 +100,6 @@ label:hover{
 label.last{
   border-bottom: 1px solid #fff;
 }
-
-ul ul li{
-  padding: 10px;
-  background: #59ABE3;
-}
-
 
 input[type="checkbox"]{
   position: absolute;
