@@ -95,7 +95,7 @@ label{
 }
 
 label:hover{
-  background: #26C281;
+  background-color: FireBrick;
 }
 
 label.last{
@@ -126,6 +126,6 @@ input[type="checkbox"]:checked ~ ul{
 }
 
 input[type="checkbox"]:checked + label{
-  background: #26C281;
+  background-color: FireBrick;
   border-bottom: 1px solid #fff;
 }
