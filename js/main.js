@@ -19,15 +19,15 @@
   if (day == 5){
     // if hours are between 11 and 2 
     if ( hour >= 11 && hour <= 14 ){
-      openClose.innerHTML = "Open Now!"; // set first to open
+      openClose.innerHTML = "Open until 2:30pm!"; // set first to open
       if ( hour == 11 ){
         if ( min >= 30 ){
-          openClose.innerHTML = "Open Now!"; //Open after 11:30
+          openClose.innerHTML = "Open until 2:30pm!"; //Open after 11:30
         } else openClose.innerHTML = "Closed until 11:30am"; // Closed before 11:30
       } 
       else if ( hour == 14 ){
         if ( min < 30 ) {
-          openClose.innerHTML = "Open Now!"; //open before 2:30
+          openClose.innerHTML = "Open until 2:30pm!"; //open before 2:30
         } else openClose.innerHTML = "Closed until 5:00pm"; // closed after 2:30 til 5p
       }
     }
@@ -37,8 +37,8 @@
     } 
     // if hours are between 5 and 9 
     else if ( (hour >= 17) && (hour <= 21) ){ 
-        if ( hour != 21 ) openClose.innerHTML = "Open Now!";
-        else if ( min < 30 ) openClose.innerHTML = "Open Now!";
+        if ( hour != 21 ) openClose.innerHTML = "Open until 9:30pm!";
+        else if ( min < 30 ) openClose.innerHTML = "Open until 9:30pm!";
         else openClose.innerHTML = "Closed until 11:00am";
       } 
    } // end friday 
@@ -49,9 +49,9 @@
     openClose.innerHTML = "Closed unitl Monday";
     // if hours are between 5 and 9 
     if ( hour >= 17 && hour < 21  ){
-        openClose.innerHTML = "Open Now!";
+        openClose.innerHTML = "Open until 9:30pm!";
         if ( hour == 21 ) {
-          if ( min < 30 ) openClose.innerHTML = "Open Now!";
+          if ( min < 30 ) openClose.innerHTML = "Open  until 9:30pm!";
           else openClose.innerHTML = "Closed until Monday";
         }
     } 
@@ -61,15 +61,15 @@
   if ( day >= 1 && day <= 4){
     // if hours are between 11 and 2
     if ( hour >= 11 && hour <= 14 ){
-      openClose.innerHTML = "Open Now!"; // set first to open
+      openClose.innerHTML = "Open until 2:30pm!"; // set first to open
       if ( hour == 11 ){
         if ( min >= 30 ){
-          openClose.innerHTML = "Open Now!"; //Open after 11:30
+          openClose.innerHTML = "Open until 2:30pm!"; //Open after 11:30
         } else openClose.innerHTML = "Closed until 11:30am"; // Closed before 11:30
       } 
       else if ( hour == 14 ){
         if ( min < 30 ) {
-          openClose.innerHTML = "Open Now!"; //open before 2:30
+          openClose.innerHTML = "Open until 2:30pm!"; //open before 2:30
         } else openClose.innerHTML = "Closed until 5:00pm"; // closed after 2:30 til 5p
       }
     } 
@@ -79,7 +79,7 @@
     }
     // if hours are between 5 and 9 
     else if ( hour >= 17 && hour < 21  ){
-        openClose.innerHTML = "Open Now!";
+        openClose.innerHTML = "Open until 9:30pm!";
     } 
   }
   //set color
