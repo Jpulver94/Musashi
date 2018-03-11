@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
 /* All Desktop CSS goes under here */
 
 .about-section {
@@ -46,16 +48,17 @@
 }
 
 .size {
-  width: 600px;
+  width: 54%;
+  height: 50%;
   padding-right: 50px;
+  float: left;
+  display: inline;
 }
 
 
 .tpercent{
   width: 33%;
 }
-
-/* All Mobile CSS goes under here */
 
 .banner-social-buttons {
 	padding-top: 50px;
@@ -65,9 +68,6 @@
   background-color: #ced4da;
 }
 
-
-/* All Mobile CSS goes under here */
-@import url(https://fonts.googleapis.com/css?family=Roboto);
 
 body{
   font-family: "Roboto", "Sans Serif";
@@ -122,3 +122,13 @@ input[type="checkbox"]:checked + label{
   background-color: FireBrick;
   border-bottom: 1px solid #fff;
 }
+
+
+/* ADD a Break at 1200 pixels for navbar */
+
+@media only screen and (max-width: 1150) {
+  p {
+    display: none;  }
+}
+
+/*Need to handle height as well for location dropdown*/
