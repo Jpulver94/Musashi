@@ -123,12 +123,18 @@ input[type="checkbox"]:checked + label{
   border-bottom: 1px solid #fff;
 }
 
+div.dropdown {
+}
 
 /* ADD a Break at 1200 pixels for navbar */
 
 @media only screen and (max-width: 1150) {
   p {
     display: none;  }
+
+  div.collapse li{
+  display: none;
+  }
 }
 
 /*Need to handle height as well for location dropdown*/
