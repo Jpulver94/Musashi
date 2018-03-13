@@ -126,6 +126,42 @@ input[type="checkbox"]:checked + label{
 div.dropdown {
 }
 
+.navbar li a {
+	display: inline-block;
+	float: right;
+	color: #f79e0d;
+}
+.navbar li a, .navbar-brand {
+	text-transform: uppercase;
+	text-decoration: none;
+  line-height: 60px;
+	padding: 0 30px;
+}
+
+
+/* kimberly wrote this */
+.side-menu {
+  width: 100%
+  display: inline-block;
+  margin-right: 10px;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.main-content {
+  width: 100%
+  display: inline-block;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+}
+/* end kimberly */
+
+
+
+
+
 /* ADD a Break at 1200 pixels for navbar */
 
 @media only screen and (max-width: 1150) {
