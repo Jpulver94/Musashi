@@ -60,6 +60,11 @@
   width: 33%;
 }
 
+.thinpadding{
+  padding: 0px 0px;
+}
+
+
 .banner-social-buttons {
 	padding-top: 50px;
 }
@@ -124,6 +129,7 @@ input[type="checkbox"]:checked + label{
 }
 
 div.dropdown {
+
 }
 
 .navbar li a {
@@ -135,7 +141,6 @@ div.dropdown {
 	text-transform: uppercase;
 	text-decoration: none;
   line-height: 60px;
-	padding: 0 30px;
 }
 
 
@@ -174,3 +179,28 @@ div.dropdown {
 }
 
 /*Need to handle height as well for location dropdown*/
+
+
+@media only screen and (max-width: 768px){
+
+  .locationtext{
+    font-size: 60%;
+  }
+
+  .locationicon{
+    height: 60%;
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 480px){
+
+    .locationtext{
+    font-size: 40%;
+  }
+
+    .locationicon{
+    height: 40%;
+    width: 40%;
+  }
+}
