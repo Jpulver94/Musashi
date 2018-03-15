@@ -59,6 +59,11 @@
   width: 33%;
 }
 
+.thinpadding{
+  padding: 0px 0px;
+}
+
+
 .banner-social-buttons {
 	padding-top: 50px;
 }
@@ -123,6 +128,16 @@ input[type="checkbox"]:checked + label{
 }
 
 div.dropdown {
+
+}
+
+.locationtext{
+  font-size: 10px;
+}
+
+.locationicon{
+  width: 30%;
+  height: 30%;
 }
 
 .navbar li a {
@@ -134,7 +149,6 @@ div.dropdown {
 	text-transform: uppercase;
 	text-decoration: none;
   line-height: 60px;
-	padding: 0 30px;
 }
 
 
@@ -167,9 +181,45 @@ div.dropdown {
   p {
     display: none;  }
 
-  div.collapse li{
-  display: none;
+    div.collapse li{
+      display: none;
+    }
   }
-}
 
-/*Need to handle height as well for location dropdown*/
+  /*Need to handle height as well for location dropdown*/
+  @media only screen and (max-width: 1200px){
+
+    .locationtext{
+      font-size: 80%;
+    }
+
+    .locationicon{
+      height: 30px;
+      width: 30px;
+    }
+  }
+
+
+  @media only screen and (max-width: 992px){
+
+    .locationtext{
+      font-size: 60%;
+    }
+
+    .locationicon{
+      height: 25px;
+      width: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 480px){
+
+    .locationtext{
+      font-size: 50%;
+    }
+
+    .locationicon{
+      height: 20px;
+      width: 20px;
+    }
+  }
