@@ -48,15 +48,15 @@
 }
 
 .size {
-  width: 50%;
-  height: 30%;
+  width: 30%;
   float: left;
+  padding-right:50px;
   
 }
 
 .list{
   font-family: "Roboto", "Sans Serif";
-  font-size: 14pt;
+  font-size: 24pt;
   font-style: italic;
 }
 
