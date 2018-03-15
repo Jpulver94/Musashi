@@ -132,6 +132,15 @@ div.dropdown {
 
 }
 
+.locationtext{
+  font-size: 10px;
+}
+
+.locationicon{
+  width: 30%;
+  height: 30%;
+}
+
 .navbar li a {
 	display: inline-block;
 	float: right;
@@ -173,34 +182,45 @@ div.dropdown {
   p {
     display: none;  }
 
-  div.collapse li{
-  display: none;
-  }
-}
-
-/*Need to handle height as well for location dropdown*/
-
-
-@media only screen and (max-width: 768px){
-
-  .locationtext{
-    font-size: 60%;
+    div.collapse li{
+      display: none;
+    }
   }
 
-  .locationicon{
-    height: 60%;
-    width: 60%;
-  }
-}
-
-@media only screen and (max-width: 480px){
+  /*Need to handle height as well for location dropdown*/
+  @media only screen and (max-width: 1200px){
 
     .locationtext{
-    font-size: 40%;
-  }
+      font-size: 80%;
+    }
 
     .locationicon{
-    height: 40%;
-    width: 40%;
+      height: 30px;
+      width: 30px;
+    }
   }
-}
+
+
+  @media only screen and (max-width: 992px){
+
+    .locationtext{
+      font-size: 60%;
+    }
+
+    .locationicon{
+      height: 25px;
+      width: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 480px){
+
+    .locationtext{
+      font-size: 50%;
+    }
+
+    .locationicon{
+      height: 20px;
+      width: 20px;
+    }
+  }
