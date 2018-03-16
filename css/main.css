@@ -136,8 +136,6 @@ div.dropdown {
 }
 
 .locationicon{
-  width: 30%;
-  height: 30%;
 }
 
 .navbar li a {
@@ -187,7 +185,7 @@ div.dropdown {
   }
 
   /*Need to handle height as well for location dropdown*/
-  @media only screen and (max-width: 1200px){
+  /*@media only screen and (max-width: 1200px){
 
     .locationtext{
       font-size: 80%;
@@ -222,4 +220,4 @@ div.dropdown {
       height: 20px;
       width: 20px;
     }
-  }
+  }*/
