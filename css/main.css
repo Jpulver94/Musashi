@@ -48,10 +48,16 @@
 }
 
 .size {
-  width: 60%;
-  height: 40%;
+  width: 30%;
   float: left;
-  display: inline;
+  padding-right:50px;
+  
+}
+
+.list{
+  font-family: "Roboto", "Sans Serif";
+  font-size: 24pt;
+  font-style: italic;
 }
 
 
