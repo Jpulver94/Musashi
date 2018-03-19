@@ -1,6 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 /* All Desktop CSS goes under here */
+
+#social-buttons a{
+  margin-right: 2%;
+  border-radius: 100%;
+  margin-bottom: -25px;
+
+}
+
+@media (min-width: 990px) {
+  #social-buttons a{
+    margin-top: 50px;
+  } 
+}
+
 .hidden {
   display: none;
 }
