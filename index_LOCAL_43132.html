@@ -31,107 +31,102 @@
 
 
 	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
 
 		<!-- NavBar Container -->
-		<div class="containter-fluid navbar-expand-lg navbar-light fixed-top" id="mainNav">
-			<div class="row">
+		<div class="container">
 
+			<!-- Location Button -->
+			<div class="dropdown col-4">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 5px 5px 0px 5px;">
+					<div class="thinpadding">
+						<img src="./img/Location Icon.png" alt="San Diego Location">
+					</div>
 
+					<div class="thinpadding locationtext">
+						<ul>
+							<li>San Diego</li>
+							<li>3211 Holiday Ct.</li>
+							<li>(858) 587-9848</li>
+						</ul>
+					</div>
+				</button>
 
-				<!-- Location Button -->
-				<div class="dropdown col" style="padding-left: 30px;">
-					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							<img src="./img/Location Icon.png" alt="San Diego Location">
+				<div class="dropdown-menu locationback" aria-labelledby="dropdownMenuButton">
+					<div class="row dropdown-item">
 						<div>
-							<ul class="locationtext">
-								<li>San Diego</li>
-								<li>3211 Holiday Ct.</li>
+							<img src="./img/Location Icon.png" alt="Seattle Location" class="locationicon">
+						</div>
+						<div class="locationtext">
+							<ul>
+								<li>Seattle</li>
+								<li>1111 Holiday Ct.</li>
 								<li>(858) 587-9848</li>
 							</ul>
 						</div>
-					</button>
-
-					<div class="dropdown-menu locationback" aria-labelledby="dropdownMenuButton">
-						<div class="dropdown-item">
-							<div>
-								<img src="./img/Location Icon.png" alt="Seattle Location">
-							</div>
-							<div>
-								<ul  class="locationtext">
-									<li>Seattle</li>
-									<li>1111 Holiday Ct.</li>
-									<li>(858) 587-9848</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="dropdown-item">
-							<div>
-								<img src="./img/Location Icon.png" alt="Chicago Location">
-							</div>
-							<div>
-								<ul  class="locationtext">
-									<li>Chicago</li>
-									<li>2222 Holiday Ct.</li>
-									<li>(858) 587-9848</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="dropdown-item">
-							<div>
-								<img src="./img/Location Icon.png" alt="Los Angeles Location">
-							</div>
-							<div class="locationtext">
-								<ul>
-									<li>Los Angeles</li>
-									<li>3333 Holiday Ct.</li>
-									<li>(858) 587-9848</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-
-
-
-
-
-				<div style="text-align:center;margin:0; padding-right: 30px;" class="col">
-					<a class="navbar-brand js-scroll-trigger" style="margin-right: 0; font-size: 40px;" href="#page-top">Musashi's</a>
-					<p id="openOrNot"></p>
-				</div>
-
-
-
-
-
-
-
-				<div class="col">
-					<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-						<i class="fa fa-bars"></i>
-					</button>
-
-					<div class="collapse navbar-collapse" id="navbarResponsive" style="padding-right: 20px;">
-						<ul class="navbar-nav ml-auto" style="font-size: 25px;">
-							<li>
-								<a class="nav-link js-scroll-trigger" href="#about">About</a>
-							</li>
-							<li>
-								<a class="nav-link js-scroll-trigger" href="#menu">Menu</a>
-							</li>
-							<li>
-								<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-							</li>
-						</ul>
 					</div>
 
+					<div class="row dropdown-item">
+						<div>
+							<img src="./img/Location Icon.png" alt="Chicago Location" class="locationicon">
+						</div>
+						<div class="locationtext">
+							<ul>
+								<li>Chicago</li>
+								<li>2222 Holiday Ct.</li>
+								<li>(858) 587-9848</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="row dropdown-item">
+						<div>
+							<img src="./img/Location Icon.png" alt="Los Angeles Location" class="locationicon">
+						</div>
+						<div class="locationtext">
+							<ul>
+								<li>Los Angeles</li>
+								<li>3333 Holiday Ct.</li>
+								<li>(858) 587-9848</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
+
+
+
+
+			<div style="text-align:center;margin:0;" class="col-4">
+				<a class="navbar-brand js-scroll-trigger" style="margin-right: 0" href="#page-top">Musashi's</a>
+				<p id="openOrNot"></p>
+			</div>
+
+
+
+			<button class="navbar-toggler navbar-toggler-right col-4" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fa fa-bars"></i>
+			</button>
+
+
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#about">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#menu">Menu</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
+					</li>
+					<!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> -->
+				</ul>
+			</div>
+
 		</div>
+	</nav>
 
 		<!-- INTRO SLIDER -->
 		<header>
@@ -200,7 +195,7 @@
 		</section>
 
 		<!-- Menu Section -->
-		<section id="menu" class="menu-section content-section text-center" style="background-image: url('img/dark.png');">
+		<section id="menu" class="menu-section content-section text-center">
 			<div class="container">
 				<div class="col-lg-8 mx-auto">
 					<h2>Menu</h2>
@@ -209,30 +204,18 @@
 				<div class="row">
 					<div class="col-lg-2 col-md-2">
 						<div class="side-menu">
-							<ul style="list-style: none;">
-			    		  <li><button onclick="menu(this.innerHTML)">item 1</button></li>
-			    		  <li><button onclick="menu(this.innerHTML)">item 2</button></li>
-			    		  <li><button onclick="menu(this.innerHTML)">item 3</button></li>
-			          <li><button onclick="menu(this.innerHTML)">item 4</button></li>
-    					</ul>
+							<a href="#" id="hello1">hello</a>
+							<a href="#" id="hello2">hello</a>
 						</div>
 					</div>
-
 					<div class="col-lg-8 offset-lg-2 col-md-2 offset-md-2">
 						<div class="main-content">
-							<h3 class="unhidden" id="item 1">Big O'l Testing</h3>
-			      	<h3 class="hidden" id="item 2">Big O'l test</h3>
-			      	<h3 class="hidden" id="item 3">Big O'l bertch</h3>
-			        <ul class="hidden" id="item 4">
-			          <li>menu items!!</li>
-			          <li>menu items!!</li>
-			          <li>menu items!!</li>
-			          <li>menu items!!</li>
-			          <li>menu items!!</li>
-			          <li>menu items!!</li>
-			          <li>menu items!!</li>
-			          <li>menu items!!</li>
-			        </ul>
+							<p class="hellocontent1">
+								Lorem Ipsum
+							</p>
+							<p class="hellocontent2">
+								Lorem Ipsum 2
+							</p>
 						</div>
 
 						<!-- footer -->
@@ -307,20 +290,32 @@
 					</div>
 				</div>
 
-				<div id="social-buttons">
-					<a href="https://www.yelp.com/biz/musashis-san-diego" target="_blank" class="btn btn-default btn-lg">
-						<i class="fa fa-yelp fa-fw"></i>
-					</a>
-					<a href="https://www.grubhub.com/restaurant/musashis-3211-holiday-ct-ste-101a-la-jolla/677835" target="_blank" class="btn btn-default btn-lg">
-						<i class="fa fa-cutlery fa-fw"></i>
-					</a>
-					<a href="https://postmates.com/merchant/musashis-la-jolla" target="_blank" class="btn btn-default btn-lg">
-						<i class="fa fa-bicycle fa-fw"></i>
-					</a>
-					<a href="https://www.facebook.com/musashislajolla/" target="_blank" class="btn btn-default btn-lg">
-						<i class="fa fa-facebook-official fa-fw"></i>
-					</a>
-				</div>
+				<ul class="list-inline banner-social-buttons">
+					<li class="list-inline-item">
+						<a href="https://www.yelp.com/biz/musashis-san-diego" target="_blank" class="btn btn-default btn-lg">
+							<i class="fa fa-yelp fa-fw"></i>
+							<span class="network-name">Yelp</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://www.grubhub.com/restaurant/musashis-3211-holiday-ct-ste-101a-la-jolla/677835" target="_blank" class="btn btn-default btn-lg">
+							<i class="fa fa-cutlery fa-fw"></i>
+							<span class="network-name">GrubHub</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://postmates.com/merchant/musashis-la-jolla" target="_blank" class="btn btn-default btn-lg">
+							<i class="fa fa-bicycle fa-fw"></i>
+							<span class="network-name">Postmates</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://www.facebook.com/musashislajolla/" target="_blank" class="btn btn-default btn-lg">
+							<i class="fa fa-facebook-official fa-fw"></i>
+							<span class="network-name">Facebook</span>
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
