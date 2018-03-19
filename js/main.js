@@ -98,3 +98,18 @@ function menu(btnClicked) {
     btn.classList.replace("hidden", "unhidden");
 
 }
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+function mobileMenu(btn){
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].classList.remove("active");
+    acc[i].nextElementSibling.style.maxHeight = null;
+  }
+
+  btn.classList.add("active");
+  var panel = btn.nextElementSibling;
+  panel.style.maxHeight = panel.scrollHeight + "px";
+}

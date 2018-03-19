@@ -201,83 +201,59 @@
 
 		<!-- Menu Section -->
 		<section id="menu" class="menu-section content-section text-center" style="background-image: url('img/arches.png');">
-			<div class="container">
-				<div class="col-lg-8 mx-auto">
-					<h2>Menu</h2>
+			<div class="col-lg-8 mx-auto">
+					<h2 style="color: firebrick;">Menu</h2>
+			</div>
+			<div class="container" id="desktopMenu">
+						<div class="row">
+							<div class="col-lg-2 col-md-2">
+								<div class="side-menu">
+									<ul style="list-style: none;">
+					    		  <li><button onclick="menu(this.innerHTML)">item 1</button></li>
+					    		  <li><button onclick="menu(this.innerHTML)">item 2</button></li>
+					    		  <li><button onclick="menu(this.innerHTML)">item 3</button></li>
+					          <li><button onclick="menu(this.innerHTML)">item 4</button></li>
+		    					</ul>
+								</div>
+							</div>
+
+							<div class="col-lg-8 offset-lg-2 col-md-2 offset-md-2">
+								<div class="main-content">
+									<h3 class="unhidden" id="item 1">Big O'l Testing</h3>
+					      	<h3 class="hidden" id="item 2">Big O'l test</h3>
+					      	<h3 class="hidden" id="item 3">Big O'l bertch</h3>
+					        <ul class="hidden" id="item 4">
+					          <li>menu items!!</li>
+					          <li>menu items!!</li>
+					          <li>menu items!!</li>
+					          <li>menu items!!</li>
+					          <li>menu items!!</li>
+					          <li>menu items!!</li>
+					          <li>menu items!!</li>
+					          <li>menu items!!</li>  
+					        </ul>
+								</div>
+		        </div>
+    			</div>
 				</div>
 
-				<div class="row">
-					<div class="col-lg-2 col-md-2">
-						<div class="side-menu">
-							<ul style="list-style: none;">
-			    		  <li><button onclick="menu(this.innerHTML)">item 1</button></li>
-			    		  <li><button onclick="menu(this.innerHTML)">item 2</button></li>
-			    		  <li><button onclick="menu(this.innerHTML)">item 3</button></li>
-			          <li><button onclick="menu(this.innerHTML)">item 4</button></li>
-    					</ul>
-						</div>
-					</div>
+    <!-- Mobile Menu --> 
+    <div class="container" id="mobileMenu">
+	    <button onclick="mobileMenu(this)" class="accordion">Section 1</button>
+		    <div class="panel">
+		      <p>Lorem ipsum...</p>
+		    </div>
 
-					<div class="col-lg-8 offset-lg-2 col-md-2 offset-md-2">
-						<div class="main-content">
-							<h3 class="unhidden" id="item 1">Big O'l Testing</h3>
-			      	<h3 class="hidden" id="item 2">Big O'l test</h3>
-			      	<h3 class="hidden" id="item 3">Big O'l bertch</h3>
-			        <ul class="hidden" id="item 4">
-			          <li>menu items!!</li>
-			          <li>menu items!!</li>
-			          <li>menu items!!</li>
-			          <li>menu items!!</li>
-			          <li>menu items!!</li>
-			          <li>menu items!!</li>
-			          <li>menu items!!</li>
-			          <li>menu items!!</li>  
-			        </ul>
-						</div>
+	    <button onclick="mobileMenu(this)" class="accordion">Section 2</button>
+		    <div class="panel">
+		      <p>Lorem ipsum...</p>
+		    </div>
 
-						<!-- footer -->
-
-              <!-- <div class="wrapper">
-                <ul>
-                  <li>
-                    <input type="checkbox" id="list-item-1">
-                    <label for="list-item-1" class="first">Appetizers</label>
-                    <ul>
-                      <li>Noodle Salad ......................................... $4</li>
-                      <li>Gyoza ..................................................... $6</li>
-                      <li>Tempura ............................................... $10</li>
-                    </ul>
-                  </li>
-                  <li>
-                    <input type="checkbox" id="list-item-2">
-                    <label for="list-item-2">Nigiri</label>
-                    <ul>
-                      <li>Tuna .................................................. $2.10</li>
-                      <li>Salmon ............................................ $2.10</li>
-                      <li>Eel .................................................... $2.10</li>
-                      <li>Albacore .......................................... $2.10</li>
-                      <li>Yellow Tail ....................................... $2.10</li>
-                      <li>Prawn .............................................. $2.10</li>
-                    </ul>
-                  </li>
-                  <li>
-                    <input type="checkbox" id="list-item-3">
-                    <label for="list-item-3" class="last">Rolls</label>
-                    <ul>
-                      <li>California (10 pc) .............................. $6.50</li>
-                      <li>Veggie Roll (10 pc) ........................... $6.25</li>
-                      <li>Tuna Roll (6 pc) ................................ $3.50</li>
-                      <li>Spicy Tuna Roll (6 pc) ....................... $3.50</li>
-                      <li>Yellow Tail Roll (6 pc) ....................... $3.50</li>
-                      <li>Smoked Salmon Roll (6 pc) ............. $3.50</li>
-                    </ul>
-                  </li>
-                </ul>
-            </div> -->
-        </div>
-    </div>
-
-</div>
+	    <button onclick="mobileMenu(this)" class="accordion">Section 3</button>
+		    <div class="panel">
+		      <p>Lorem ipsum...</p>
+		    </div>
+	  </div>
 </section>
 
 
