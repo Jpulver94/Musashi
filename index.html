@@ -33,14 +33,14 @@
 	<!-- Navigation -->
 
 		<!-- NavBar Container -->
-		<div class="container navbar-expand-lg navbar-light fixed-top" id="mainNav"> 
+		<div class="containter-fluid navbar-expand-lg navbar-light fixed-top" id="mainNav"> 
 			<div class="row">
 
 
 
 				<!-- Location Button -->
 				<div class="dropdown col">
-					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding: 5px 5px 0px 5px;">
+					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						<div class="thinpadding">
 							<img src="./img/Location Icon.png" alt="San Diego Location">
 						</div>
@@ -55,7 +55,7 @@
 					</button>
 
 					<div class="dropdown-menu locationback" aria-labelledby="dropdownMenuButton">
-						<div class="row dropdown-item">
+						<div class="dropdown-item">
 							<div>
 								<img src="./img/Location Icon.png" alt="Seattle Location" class="locationicon">
 							</div>
@@ -68,7 +68,7 @@
 							</div>
 						</div>
 
-						<div class="row dropdown-item">
+						<div class="dropdown-item">
 							<div>
 								<img src="./img/Location Icon.png" alt="Chicago Location" class="locationicon">
 							</div>
@@ -81,7 +81,7 @@
 							</div>
 						</div>
 
-						<div class="row dropdown-item">
+						<div class="dropdown-item">
 							<div>
 								<img src="./img/Location Icon.png" alt="Los Angeles Location" class="locationicon">
 							</div>
@@ -102,7 +102,6 @@
 
 
 
-
 				<div style="text-align:center;margin:0;" class="col">
 					<a class="navbar-brand js-scroll-trigger" style="margin-right: 0" href="#page-top">Musashi's</a>
 					<p id="openOrNot"></p>
@@ -114,36 +113,31 @@
 
 
 
-<div class="col">
+				<div class="col">
+					<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+						<i class="fa fa-bars"></i> 
+					</button>
 
+					<div class="collapse navbar-collapse" id="navbarResponsive">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link js-scroll-trigger" href="#about">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link js-scroll-trigger" href="#menu">Menu</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
 
-				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-					<i class="fa fa-bars"></i> 
-				</button>
-
-
-
-				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a class="nav-link js-scroll-trigger" href="#about">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link js-scroll-trigger" href="#menu">Menu</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-						</li>
-						<!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> -->
-					</ul>
 				</div>
-
-			</div>
 			</div>
 		</div>
 
-	<!-- INTRO SLIDER -->
-	<header>
+		<!-- INTRO SLIDER -->
+		<header>
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
