@@ -88,12 +88,13 @@
 
 isOpen();
 
-//menu
-function changeMenu() {
-  var x = document.getElementById("menu");
-  if (x.style.display === "none") {
-      x.style.display = "block";
-  } else {
-      x.style.display = "none";
-  }
+function menu(btnClicked) {
+   var btn = document.getElementById(btnClicked);
+
+   if( btn.classList.contains("unhidden") ) return;
+
+    var hide = document.querySelector(".unhidden");
+    hide.classList.replace("unhidden", "hidden");
+    btn.classList.replace("hidden", "unhidden");
+
 }

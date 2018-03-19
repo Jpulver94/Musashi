@@ -1,6 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 /* All Desktop CSS goes under here */
+.hidden {
+  display: none;
+}
+
+.unhidden {
+  display: block;
+}
 
 .about-section {
   background-color: #1e1e1e;
