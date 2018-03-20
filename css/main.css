@@ -180,7 +180,7 @@ div.dropdown {
   width: 100%
   display: inline-block;
   margin-right: 10px;
-  color: black;
+  color: #666;
   background-color: transparent;
 
 }
@@ -217,7 +217,10 @@ div.dropdown {
   font-size: 10px;
 }
 
-
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
 
 /* ADD a Break at 1200 pixels for navbar */
 
@@ -269,6 +272,7 @@ div.dropdown {
 @media (min-width: 1000px){
   #mobileMenu {
     display: none;
+    text-align: left;
   }
 
 }
@@ -303,14 +307,14 @@ div.dropdown {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active1, .accordion:hover {
-    background-color: #ccc;
+    background-color: gray;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
     padding: 0 18px;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -356,7 +360,7 @@ div.dropdown {
 
 /*Controls style of desktop menu button as it is being clicked*/
 .menuBtn:active {
-  color: firebrick;
+  color: white;
 }
 
 /*this is for the desktop menu buttons*/
@@ -367,7 +371,7 @@ div.dropdown {
 
 /*Use this to change desktop menu button that was clicked*/
 .active2 {
-  color:firebrick;
+  color:white;
   background-color:  #555555;
 }
 
