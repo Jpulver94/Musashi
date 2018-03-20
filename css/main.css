@@ -181,7 +181,6 @@ div.dropdown {
   display: inline-block;
   margin-right: 10px;
   color: black;
-  border: 1px solid black;
   background-color: transparent;
 }
 
@@ -296,4 +295,20 @@ div.dropdown {
 
 #navbarResponsive {
   text-align: center;
+}
+
+.menuBtn {
+    background-color: black;
+    color: white;
+    border: 2px solid #555555;
+}
+
+.menuBtn:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.btn-group  {
+  display: block;
+  border: transparent;
 }

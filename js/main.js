@@ -90,7 +90,6 @@ isOpen();
 
 function menu(btnClicked) {
    var btn = document.getElementById(btnClicked);
-
    if( btn.classList.contains("unhidden") ) return;
 
     var hide = document.querySelector(".unhidden");
