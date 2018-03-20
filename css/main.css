@@ -221,6 +221,10 @@ div.dropdown {
   font-size: 10px;
 }
 
+.navtitle{
+  margin-right: 0; 
+}
+
 body {
     overflow-x: hidden;
     width: 100%;
@@ -249,6 +253,7 @@ body {
     }
 
   }
+
 
   @media only screen and (max-width: 992px){
 
