@@ -91,9 +91,9 @@ isOpen();
 function menu(btnClicked, act) {
 
   var remAct = document.querySelector(".active2");
-  remAct.classList.remove("active2"); 
+  remAct.classList.remove("active2");
   act.classList.add("active2");
-   
+
    var btn = document.getElementById(btnClicked);
    if( btn.classList.contains("unhidden") ) return;
 
@@ -132,7 +132,7 @@ var btn = document.getElementsByClassName("orderBtn")[0];
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal
 btn.onclick = function() {
     modal.style.display = "block";
 }
