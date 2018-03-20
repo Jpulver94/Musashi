@@ -191,9 +191,9 @@ div.dropdown {
 .main-content {
   width: 100%
   display: inline-block;
-  color: white;
+  color: black;
   border: 1px solid gray;
-  background-color: transparent;
+  background-color: white;
   text-align: left;
   border-radius: 0.55rem;
   padding: 20px;
@@ -222,7 +222,7 @@ div.dropdown {
 }
 
 .navtitle{
-  margin-right: 0; 
+  margin-right: 0;
 }
 
 body {
