@@ -12,7 +12,7 @@
 @media (min-width: 990px) {
   #social-buttons a{
     margin-top: 50px;
-  } 
+  }
 }
 
 .hidden {
@@ -72,7 +72,7 @@
   width: 30%;
   float: left;
   padding-right:50px;
-  
+
 }
 
 .list{
@@ -193,6 +193,12 @@ div.dropdown {
 }
 /* end kimberly */
 
+/*contact image*/
+#miyamoto{
+  width:50%; 
+  height: auto;
+}
+
 .locationtext{
   font-size: 10px;
 }
@@ -215,7 +221,7 @@ div.dropdown {
       font-size: 65%;
     }
 
-  
+
   }
 
 
@@ -286,7 +292,7 @@ div.dropdown {
 
 .active1:after {
        /*Unicode character for "minus" sign (-) */
-    content: "\2796"; 
+    content: "\2796";
 }
 
 /*Navbar hamburger menu*/
