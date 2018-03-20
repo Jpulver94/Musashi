@@ -83,7 +83,7 @@
     }
   }
   //set color
-  openClose.style.color = "white";
+  openClose.style.color = "FireBrick";
 }
 
 isOpen();
