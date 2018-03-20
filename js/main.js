@@ -88,7 +88,12 @@
 
 isOpen();
 
-function menu(btnClicked) {
+function menu(btnClicked, act) {
+
+  var remAct = document.querySelector(".active2");
+  remAct.classList.remove("active2"); 
+  act.classList.add("active2");
+   
    var btn = document.getElementById(btnClicked);
    if( btn.classList.contains("unhidden") ) return;
 

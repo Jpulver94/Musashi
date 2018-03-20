@@ -308,7 +308,17 @@ div.dropdown {
     color: white;
 }
 
+.menuBtn:active {
+  color: firebrick;
+}
+/*this is for the desktop menu buttons*/
 .btn-group  {
   display: block;
   border: transparent;
+}
+
+/*Use this to change desktop menu button that was clicked*/
+.active2 {
+  color:firebrick;
+  background-color:  #555555;
 }
