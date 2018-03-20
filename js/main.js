@@ -105,11 +105,11 @@ var i;
 function mobileMenu(btn){
 
   for (i = 0; i < acc.length; i++) {
-    acc[i].classList.remove("active");
+    acc[i].classList.remove("active1");
     acc[i].nextElementSibling.style.maxHeight = null;
   }
 
-  btn.classList.add("active");
+  btn.classList.add("active1");
   var panel = btn.nextElementSibling;
   panel.style.maxHeight = panel.scrollHeight + "px";
 }

@@ -262,7 +262,7 @@ div.dropdown {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.active1, .accordion:hover {
     background-color: #ccc;
 }
 
@@ -285,6 +285,15 @@ div.dropdown {
     margin-left: 5px;
 }
 
-.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+.active1:after {
+       /*Unicode character for "minus" sign (-) */
+    content: "\2796"; 
+}
+
+.navbar-toggler {
+  margin-left: 50%;
+}
+
+#navbarResponsive {
+  text-align: center;
 }
