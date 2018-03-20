@@ -45,16 +45,16 @@
 }
 
 .btn-default {
-  color: white;
-  border: 1px solid white;
+  color:gray;
+  border: 1px solid gray;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
-  color: black;
+  color: white;
   border: 1px solid white;
   outline: none;
-  background-color: white;
+  background-color: black;
 
 }
 
@@ -215,15 +215,7 @@ div.dropdown {
   font-size: 10px;
 }
 
-/*mobile*/
 
-/*prevents horizontal scroll*/
-html, body {
-  overflow-x: hidden;
-}
-body {
-  position: relative
-}
 
 /* ADD a Break at 1200 pixels for navbar */
 
