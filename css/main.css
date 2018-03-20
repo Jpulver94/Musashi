@@ -45,16 +45,16 @@
 }
 
 .btn-default {
-  color:white;
-  border: 1px solid white;
+  color:gray;
+  border: 1px solid gray;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
-  color: black;
+  color: white;
   border: 1px solid black;
   outline: none;
-  background-color: white;
+  background-color: black;
 
 }
 
@@ -182,14 +182,16 @@ div.dropdown {
   margin-right: 10px;
   color: black;
   background-color: transparent;
+
 }
 
 .main-content {
   width: 100%
   display: inline-block;
-  color: black;
-  border: 1px solid black;
+  color: white;
+  border: 1px solid gray;
   background-color: transparent;
+  text-align: left;
 }
 /* end kimberly */
 
