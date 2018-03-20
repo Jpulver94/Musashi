@@ -45,16 +45,16 @@
 }
 
 .btn-default {
-  color:gray;
-  border: 1px solid gray;
+  color:white;
+  border: 1px solid white;
   background-color: transparent;
 }
 
 .btn-default:focus, .btn-default:hover {
-  color: white;
-  border: 1px solid white;
+  color: black;
+  border: 1px solid black;
   outline: none;
-  background-color: black;
+  background-color: white;
 
 }
 
