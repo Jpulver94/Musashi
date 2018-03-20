@@ -107,7 +107,11 @@ var acc = document.getElementsByClassName("accordion");
 var i;
 
 function mobileMenu(btn){
-
+  if (btn.classList.contains("active1")) {
+    btn.classList.remove("active1");
+    btn.nextElementSibling.style.maxHeight = null;
+    return;
+  }
   for (i = 0; i < acc.length; i++) {
     acc[i].classList.remove("active1");
     acc[i].nextElementSibling.style.maxHeight = null;
