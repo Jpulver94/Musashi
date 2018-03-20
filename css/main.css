@@ -289,28 +289,34 @@ div.dropdown {
     content: "\2796"; 
 }
 
+/*Navbar hamburger menu*/
 .navbar-toggler {
   margin-left: 50%;
 }
 
+/*For the text under the hamburger menu*/
 #navbarResponsive {
   text-align: center;
 }
 
+/*Default state of desktop menu buttons*/
 .menuBtn {
     background-color: black;
     color: white;
     border: 2px solid #555555;
 }
 
+/*Controls style of desktop menu button as it is being hovered*/
 .menuBtn:hover {
     background-color: #555555;
     color: white;
 }
 
+/*Controls style of desktop menu button as it is being clicked*/
 .menuBtn:active {
   color: firebrick;
 }
+
 /*this is for the desktop menu buttons*/
 .btn-group  {
   display: block;
