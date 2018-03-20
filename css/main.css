@@ -337,11 +337,15 @@ body {
 /*Navbar hamburger menu*/
 .navbar-toggler {
   margin-left: 50%;
+  background-color: black;
 }
+
+
 
 /*For the text under the hamburger menu*/
 #navbarResponsive {
   text-align: center;
+  background-color: black;
 }
 
 /*Default state of desktop menu buttons*/
