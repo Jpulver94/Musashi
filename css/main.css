@@ -58,6 +58,19 @@
 
 }
 
+.btn-social {
+  color:white;
+  border: 1px solid gray;
+  background-color: transparent;
+}
+
+.btn-social:focus, .btn-social:hover {
+  color: black;
+  border: 1px solid black;
+  outline: none;
+  background-color: white;
+
+}
 
 .boxed {
   border: 1px solid white;
