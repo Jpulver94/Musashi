@@ -25,8 +25,8 @@
 
 .about-section {
   background-color: #1e1e1e;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 90px;
 }
 
 .location {
@@ -233,14 +233,19 @@ div.dropdown {
       font-size: 65%;
     }
 
+    .size{
+      width: 40%;
+    }
 
   }
-
 
   @media only screen and (max-width: 992px){
 
     .locationtext{
       font-size: 50%;
+    }
+    .size{
+      width: 50%;
     }
 
   }
@@ -251,12 +256,17 @@ div.dropdown {
       font-size: 40%;
     }
 
+    .size{
+      width: 50%;
+    }
+
   }
 
 @media (min-width: 1000px){
   #mobileMenu {
     display: none;
   }
+
 }
 
 @media (max-width: 1000px){
@@ -269,6 +279,10 @@ div.dropdown {
     height: auto;
     width: auto;
   }
+
+  .size{
+      width: 50%;
+    }
 }
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
