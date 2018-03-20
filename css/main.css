@@ -180,8 +180,11 @@ div.dropdown {
   width: 100%
   display: inline-block;
   margin-right: 10px;
+  margin-bottom: 10px;
   color: #666;
   background-color: transparent;
+
+
 
 }
 
@@ -192,6 +195,8 @@ div.dropdown {
   border: 1px solid gray;
   background-color: transparent;
   text-align: left;
+  border-radius: 0.55rem;
+  padding: 20px;
 }
 /* end kimberly */
 
@@ -209,8 +214,7 @@ div.dropdown {
   width: 150px;
   display: block;
   text-align: center;
-  .inset;
-  .border-radius(10px);
+  border-radius: 0.5rem;
 }
 
 .locationtext{
