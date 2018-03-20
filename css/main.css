@@ -293,6 +293,20 @@ body {
 
     @media only screen and (max-width: 414px){
 
+      .locationtext{
+        font-size: 40%;
+      }
+
+      .size{
+        width: 75% !important;
+        padding-left: 80px;
+        padding-bottom: 40px;
+      }
+
+    }
+
+    @media only screen and (max-width: 414px){
+
     .locationtext{
       font-size: 40%;
     }
