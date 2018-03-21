@@ -196,6 +196,7 @@ div.dropdown {
   margin-bottom: 10px;
   color: #666;
   background-color: transparent;
+  border: black;
 
 
 
@@ -362,7 +363,7 @@ body {
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-    padding: 0 18px;
+    padding: 0 25px;
     background-color: white;
     color: black;
     max-height: 0;
@@ -372,6 +373,7 @@ text-align: left;
 }
 
 .accordion:after {
+    padding-top: 10px;
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     color: #777;
